@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <header>
+        <h1>Codific<img src="assests/images/logo-alura.png" alt="logo-alura">dor de Texto</h1>
+    </header>
+    <main class="container">
+        <section class="section-textarea">
+            <textarea name="area" id="textarea" placeholder="Ingrese texto aqui" autocapitalize="sentences"></textarea>
+            <p><img src="assests/images/eclamation.png" alt="exclamation">Solo letras minusculas y sin acentos</p>
+            <div class="section-botones">
+                <input id="input-encriptar" class="input-encriptar" type="button" value="Encriptar"></input>
+                <input id="input-desencriptar" class="input-desencriptar" type="button" value="Desencriptar"></input>
+            </div>
+        </section>
+
+        <section class="section-resultado">
+            <div id="mostrar1" class="container-textarea-resultado">
+                <textarea name="area" id="textarea-resutado" cols="30" rows="10"></textarea>
+            </div>
+            <div id="mostrar2" class="container-copiar">
+                <input id="input-copiar" class="input-copiar"type="submit" value="Copiar"></input>
+            </div>
+            <div id="ocultar" class="container-muñeco">
+                <img class="imagen-muñeco" src="assests/images/muñeco.png" alt="imagen-muñeco">
+            </div>
+            <div id="ocultar2" class="container-texto">
+                <h3>Ningun mensaje fue encontrado</h3>
+            </div>
+            <div id="ocultar3" class="container-texto">
+                <p>Ingrese el texto que desees encriptar o desencriptar</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;MatiasGabrielOrtega by AluraLatam-Oracle</p>
+        <p>Año 2022</p>
+    </footer>
+    <script src="src/main.js"></script>
+</body>
+</html>
