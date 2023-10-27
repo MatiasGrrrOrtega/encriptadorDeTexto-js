@@ -1,8 +1,5 @@
-# challengeOneCodificador2
-Codificador de texto del desafío de Alura Latam 2022
-
-SOBRE EL :
-El desafio trata de una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
+SOBRE EL CODIFICADOR:
+Una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
 Las "llaves" de encriptación son las siguientes:
 
@@ -13,16 +10,13 @@ Las "llaves" de encriptación son las siguientes:
 `La letra "u" es convertida para "ufat"`
 
 **Requisitos:**
-- Debe funcionar solo con letras minúsculas
-- No deben ser utilizados letras con acentos ni caracteres especiales
-- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. 
+- Funcionar solo con letras minúsculas
+- No utiliza letras con acentos ni caracteres especiales
+- Es posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. 
 
 Por ejemplo:
 `"gato" => "gaitober"`
 `gaitober" => "gato"`
 
-- La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
-- El resultado debe ser mostrado en la pantalla.
-
 **Extras:**
-- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del `ctrl+C` o de la opción "copiar" del menú de las aplicaciones.
+- Contiene un botón que copia el texto encriptado/desencriptado para la sección de transferencia, o sea que tiene la misma funcionalidad del `ctrl+C` o de la opción "copiar" del menú de las aplicaciones.
